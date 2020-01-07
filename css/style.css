@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+}
+#container {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    display: block;
+}
+
+#dragonsMother {
+    width: 300px;
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
+    /* left: 50%; à 50%/50% du parent référent */
+    /* transform: translate(-50%, -50%); */
+}
+
+.frames {
+    width: 100vw;
+    position: relative;
+}
+
+#frame2 {
+    left: 100vw;
+}
+
+#frame1 {
+    left: -1;
+}
+
